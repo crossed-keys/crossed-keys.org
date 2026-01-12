@@ -23307,4 +23307,52 @@ div.highlight {
   color: #ea4aaa;
 }
 
+main {
+  text-align: center;
+}
+main p {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+main h1, main h2 {
+  font-weight: bold;
+  text-align: center;
+}
+main h1 {
+  font-size: 2rem;
+}
+main h2 {
+  font-size: 1rem;
+}
+main th:first-of-type {
+  border-top-left-radius: 10px;
+}
+main th:last-of-type {
+  border-top-right-radius: 10px;
+}
+main tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+main tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+main thead {
+  background-color: #fff1b7;
+}
+main tbody tr:nth-child(odd) {
+  background-color: #fffce3;
+}
+main tbody tr:nth-child(even) {
+  background-color: #fff9c3;
+}
+main li {
+  list-style-position: inside;
+}
+main ul {
+  list-style-type: disc;
+}
+main .list-nodisc ul {
+  list-style-type: none;
+}
+
 /*# sourceMappingURL=app.css.map */
