@@ -23307,6 +23307,18 @@ div.highlight {
   color: #ea4aaa;
 }
 
+.navbar-brand > .navbar-item {
+  background-image: url(https://img.crossed-keys.org/favicon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-size: 0px;
+}
+
+:root h2, :root .subtitle {
+  font-size: 1.5rem;
+}
+
 main {
   text-align: center;
 }
@@ -23315,14 +23327,10 @@ main p {
   padding-bottom: 0.25em;
 }
 main h1, main h2 {
-  font-weight: bold;
   text-align: center;
 }
 main h1 {
   font-size: 2rem;
-}
-main h2 {
-  font-size: 1rem;
 }
 main .table th:not([align]) {
   text-align: center;
@@ -23335,6 +23343,12 @@ main ul {
 }
 main .list-nodisc ul {
   list-style-type: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-links {
+    font-size: 0.75rem;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
