@@ -23345,6 +23345,10 @@ main .list-nodisc ul {
   list-style-type: none;
 }
 
+.footer-links img {
+  vertical-align: middle;
+}
+
 @media screen and (min-width: 1024px) {
   .footer-links {
     font-size: 0.75rem;
