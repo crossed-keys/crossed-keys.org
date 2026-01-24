@@ -23315,6 +23315,9 @@ div.highlight {
   font-size: 0px;
 }
 
+:root {
+  --bulma-body-family: "Ubuntu", sans-serif;
+}
 :root h2, :root .subtitle {
   font-size: 1.5rem;
 }
