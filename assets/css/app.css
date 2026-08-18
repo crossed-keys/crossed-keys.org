@@ -23347,6 +23347,9 @@ main ul {
 main .list-nodisc ul {
   list-style-type: none;
 }
+main .br-10 {
+  border-radius: 10px;
+}
 
 .footer-links img {
   vertical-align: middle;
